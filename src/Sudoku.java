@@ -19,6 +19,7 @@ public class Sudoku {
         else
             System.out.println("Stuck");
     }
+
     public static void printBoard() {
         System.out.println();
         for (int i = 0; i < 9; i++) {
