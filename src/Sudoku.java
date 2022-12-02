@@ -58,7 +58,6 @@ public class Sudoku {
         return false;
     }
 
-
     //check whether each number on the board is validly placed
     public static boolean isSolved() {
         for (int i = 0; i < 9; i++)
